@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int i,numb,fact;
+	printf("enter the number:");
+	scanf("%d",&numb);
+	if(i==numb)
+	{
+		for(i=1;i<=numb;i++)
+		{
+	        fact=fact*1;
+		}
+		printf("fact of %d is %d,numb,fact");
+	}
+	else
+	{
+		printf("invalid:");
+	}
+	return 0;
+}
